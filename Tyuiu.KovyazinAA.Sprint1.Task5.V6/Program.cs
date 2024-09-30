@@ -9,7 +9,7 @@ namespace Tyuiu.KovyazinAA.Sprint1.Task5.V6
             Console.Title = "Спринт #1 | Выполнил: Ковязин А. А. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Создания итогового решения по спринту                             *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #6                                                              *");
             Console.WriteLine("* Выполнил: Ковязин Андрей Александрович | ПКТб-24-1                      *");
@@ -25,7 +25,7 @@ namespace Tyuiu.KovyazinAA.Sprint1.Task5.V6
             int k;
             k = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("* День недели:                                                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.Calculate(k));
         }
